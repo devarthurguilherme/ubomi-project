@@ -1,3 +1,6 @@
+import { BiLogoFacebook } from "react-icons/bi"
+import { MdEmail } from "react-icons/md"
+
 const Footer = () => {
   return (
     <footer>
@@ -8,8 +11,8 @@ const Footer = () => {
               <h2>Subtitle</h2>
             </div>
             <div className="lg:w-1/2 flex">
-              <p>icon 1</p>
-              <p>icon 2</p>
+              <BiLogoFacebook />
+              <MdEmail />
             </div>
           </div>
         </div>
