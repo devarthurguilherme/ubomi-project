@@ -1,4 +1,4 @@
-import React from 'react'
+import image from "../../assets/Events_Management.jpeg"
 
 const EventsManagement = () => {
   return (
@@ -10,7 +10,7 @@ const EventsManagement = () => {
             <p>Paragraph</p>
           </div>
           <div className="lg:w-1/2 text-center">
-            <p>Image 1</p>
+            <img src={image} alt="Ubomi Events Management" />
           </div>
         </div>
       </div>

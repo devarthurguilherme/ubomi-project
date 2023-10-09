@@ -11,8 +11,12 @@ const Footer = () => {
               <h2>Subtitle</h2>
             </div>
             <div className="lg:w-1/2 flex">
-              <BiLogoFacebook />
-              <MdEmail />
+              <a href="https://www.facebook.com/" target="blank">
+                <BiLogoFacebook />
+              </a>
+              <a href="mailto:someone@example.com/" target="blank">
+                <MdEmail />
+              </a>
             </div>
           </div>
         </div>
