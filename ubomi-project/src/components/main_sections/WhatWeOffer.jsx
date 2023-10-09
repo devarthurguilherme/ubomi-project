@@ -8,18 +8,18 @@ const WhatWeOffer = () => {
     <div className="bg-myBlue min-h-screen flex flex-col justify-center items-center">
         <div className="container mx-auto">
             <div className="flex flex-col justify-center items-center lg:flex-row lg:justify-between">
-              <div className="bg-red-300">
+              <div className="">
                 <img src={image1} alt="Ubomi breakfast"/>
               </div>
-              <div className="bg-red-300">
+              <div className="">
                 <img src={image2} alt="Ubomi breakfast"/>
               </div>
-              <div className="bg-red-300">
+              <div className="">
                 <img src={image3} alt="Ubomi breakfast"/>
               </div>
             </div>
             <div className="flex">
-              <h1>What We Offer</h1>
+              <h2 className="text-5xl text-white">What We Offer</h2>
               <img src={printArt} alt="Ubomi art"/>
             </div>
         </div>
