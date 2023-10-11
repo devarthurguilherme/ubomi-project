@@ -5,14 +5,14 @@ import printArt from "../../assets/print_art.png"
 
 const WhatWeOffer = () => {
   return (
-    <div className="bg-myBlue pt-10">
-      <div className="container mx-auto">
-        <div className="px-4 mt-6">
+    <div className="bg-myBlue py-10">
+      <div className="px-2 container mx-auto">
+        <div className="px-2 mt-6">
           <div className="w-full absolute z-10 flex justify-center">
                 {/*<img className="w-10 rotate-90 -mt-6"src={printArt} alt="Ubomi art"/> BROKE PAGE TO LEFT HERE!*/}
           </div>
           <div class="w-1/5 border-2 border-t border-gray-300 rounded-xl mb-4"></div>
-          <div className="mb-10 flex relative z-0 bg-red-400">
+          <div className="mb-10 flex relative z-0">
             <h2 className="relative text-2xl uppercase text-white">What We Offer</h2>
           </div>
         </div>
