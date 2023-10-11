@@ -15,7 +15,7 @@ const Header = () => {
                     <h1 className=" font-semibold text-4xl leading-tight mb-8 text-white">EVENTS & 
                       <br />PROJECT <br />MANAGEMENT
                     </h1>
-                    <p className="mb-8 font-semibold">
+                    <p className="text-white mb-8">
                       100% female black-owned company providing full-service, lifestyle-based, professional event planning and project management.                
                     </p>
                   </div>

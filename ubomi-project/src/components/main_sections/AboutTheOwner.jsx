@@ -7,11 +7,12 @@ const AboutTheOwner = () => {
         <div className="container mx-auto">
             <div className="flex flex-col-reverse justify-center items-center">
               <div className="flex flex-col justify-center items-center text-center">
-                <div className="bg-cover bg-center w-full h-80" style={{ backgroundImage: `url(${lindiwePicture})` }}>
+                <div className="bg-cover bg-center w-80 h-80 rounded shadow-lg" style={{ backgroundImage: `url(${lindiwePicture})` }}>
                 </div>
                 <img className="-mt-8 w-3/4" src={art} alt="Lindiwe Cook" />
               </div>
               <div className="px-4 text-white ">
+                <div class="w-1/5 border-2 border-t border-gray-300 rounded-xl mb-4"></div>
                 <h2 className="text-2xl mb-4">ABOUT THE OWNER</h2>
                 <p className="mb-8">
                   My passion for event coordination began during my upbringing in the Eastern Cape of South Africa, where coming together in celebration was a central aspect of life. While pursuing new career opportunities, I relocated to Pretoria while maintaining my devotion to uplifting others.
