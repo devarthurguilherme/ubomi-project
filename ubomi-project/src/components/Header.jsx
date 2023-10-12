@@ -8,17 +8,21 @@ const Header = () => {
     <header>
         <div className="bg-myGreen pt-6 flex flex-col justify-center items-center">
           <div className="container mx-auto">
-            <div className="flex flex-col lg:flex-row justify-center items-center">
-              <div className="text-center">
+            <div className="xl:bg-red-400">
+              <div className="">
                 <img className="w-4/5 mb-8 mx-auto" src={logo} alt="Ubomi Logo" />
-                  <div className="px-4 text-left">
-                    <h1 className=" font-semibold text-4xl leading-tight mb-8 text-white">EVENTS & 
-                      <br />PROJECT <br />MANAGEMENT
-                    </h1>
-                    <p className="text-white mb-8">
-                      100% female black-owned company providing full-service, lifestyle-based, professional event planning and project management.                
-                    </p>
-                  </div>
+                <div className="px-4 text-left">
+                  <h1 className="md:hidden font-semibold text-4xl md:text-5xl leading-tight mb-8 text-white">EVENTS & 
+                    <br />PROJECT <br />MANAGEMENT
+                  </h1>
+                  <h1 className="hidden md:flex font-semibold text-4xl md:text-5xl mb-8 text-white">
+                    EVENTS & 
+                    <br />PROJECT MANAGEMENT
+                  </h1>
+                  <p className="text-white mb-8 md:text-xl">
+                    100% female black-owned company providing full-service, lifestyle-based, professional event planning and project management.                
+                  </p>
+                </div>
               </div>
               <img className="" src={image} alt="Ubomi lunch"/>
             </div>
