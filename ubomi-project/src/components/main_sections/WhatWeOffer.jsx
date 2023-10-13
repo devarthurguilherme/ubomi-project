@@ -5,7 +5,7 @@ import image3 from "../../assets/What_We_Offer_image3.png"
 const WhatWeOffer = () => {
   return (
     <div className="bg-myBlue py-10 lg:py-16">
-      <div className="px-2 lg:bg-red-400 lg:max-w-6xl container mx-auto">
+      <div className="px-2 lg:max-w-6xl container mx-auto">
         <div className="px-2 mt-6">
           <div class="w-1/5 md:w-1/12 lg:mx-auto border-2 border-t border-gray-300 rounded-xl mb-4"></div>
           <div className="mb-10">

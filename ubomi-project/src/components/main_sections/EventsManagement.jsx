@@ -3,7 +3,7 @@ import image from "../../assets/Events_Management.jpeg"
 const EventsManagement = () => {
   return (
     <section className="bg-myOrange pt-10 md:py-10 lg:py-16">
-      <div className="lg:bg-red-400 container lg:max-w-6xl mx-auto">
+      <div className="container lg:max-w-6xl mx-auto">
         <div className="lg:flex lg:justify-center">
           <div className="px-4 lg:w-1/2 lg:px-0 lg:mr-10 text-white">
             <div class="w-1/5 md:1/6 border-2 border-t border-gray-300 rounded-xl mb-4"></div>
@@ -17,7 +17,7 @@ const EventsManagement = () => {
             </p>
           </div>
           <div className="lg:w-2/5 lg:px-4">
-            <img className="mx-auto max-h-screen lg:max-h-96 rounded shadow-lg lg:rounded-xl lg:shadow-xl"src={image}/>
+            <img width={400} className="mx-auto max-h-screen lg:max-h-96 rounded shadow-lg lg:rounded-xl lg:shadow-xl"src={image}/>
           </div>
         </div>
       </div>

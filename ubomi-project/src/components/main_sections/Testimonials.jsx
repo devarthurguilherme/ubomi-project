@@ -3,13 +3,13 @@ import quotesArt from "../../assets/quotes.png"
 const Testimonials = () => {
   return (
     <section className="py-10 lg:py-16">
-      <div className="lg:bg-red-400 container lg:max-w-6xl mx-auto">
+      <div className="container lg:max-w-6xl mx-auto">
         <div className="px-4">
           <div class="w-1/5 md:w-1/12 mx-auto border-2 border-t border-gray-800 rounded-xl mb-4"></div>
           <h2 className="text-center text-3xl lg:text-4xl font-semibold uppercase mb-4">
             Testimonials
           </h2>
-          <div className="md:flex flex-wrap font-semibold md:text-lg">
+          <div className="md:flex flex-wrap lg:justify-center font-semibold md:text-lg">
             <div className="md:max-w-xs mb-6 md:m-4 lg:m-1 p-4 rounded-xl shadow-md flex">
               <img className="h-4 mr-2" src={quotesArt} alt="Art to Quotes Ubomi" />
               <div>

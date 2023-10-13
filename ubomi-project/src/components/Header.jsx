@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header>
         <div className="bg-myGreen pt-10 lg:py-16 flex flex-col justify-center items-center">
-          <div className="lg:bg-red-400 container lg:max-w-6xl mx-auto">
+          <div className="container lg:max-w-6xl mx-auto">
             <div className="lg:flex lg:justify-center">
               <div className="lg:w-1/2">
                 <img className="w-4/5 mb-8 mx-auto" src={logo} alt="Ubomi Logo" />

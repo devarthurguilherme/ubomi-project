@@ -4,7 +4,7 @@ import art from "../../assets/Art_Lindiwe_Cook.png"
 const AboutTheOwner = () => {
   return (
     <section className="bg-myOrange py-10 lg:py-16">
-        <div className="lg:bg-red-400 container lg:max-w-6xl mx-auto">
+        <div className="container lg:max-w-6xl mx-auto">
           <div className="lg:flex lg:flex-row-reverse lg:justify-center">
             <div className="px-4 lg:w-1/2 lg:px-0 text-white">
                 <div class="w-1/5 md:w-1/6 border-2 border-t border-gray-300 rounded-xl mb-4"></div>

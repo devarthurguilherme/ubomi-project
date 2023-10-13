@@ -3,7 +3,7 @@ import image from "../../assets/Project_Management_Celebration.jpeg"
 const ProjectManagement = () => {
   return (
     <section className="pt-10 md:py-10 lg:py-16">
-      <div className="lg:bg-red-400 container lg:max-w-6xl mx-auto">
+      <div className="container lg:max-w-6xl mx-auto">
         <div className="lg:flex lg:flex-row-reverse lg:justify-center">
           <div className="lg:w-1/2 lg:px-0 px-4 mb-8 lg:mb-0">
             <div class="w-1/5 border-2 border-t border-gray-800 rounded-xl mb-4"></div>
@@ -18,7 +18,7 @@ const ProjectManagement = () => {
               </ul>
           </div>
           <div className="lg:w-2/5 lg:px-4  lg:mr-10">
-            <img className="mx-auto max-h-screen lg:max-h-96 rounded shadow-lg lg:rounded-xl lg:shadow-xl"src={image} alt="Ubomi Celebretion and Project Management" />
+            <img width={400} className="mx-auto max-h-screen lg:max-h-96 rounded shadow-lg lg:rounded-xl lg:shadow-xl"src={image} alt="Ubomi Celebretion and Project Management" />
           </div>
         </div>
       </div>
